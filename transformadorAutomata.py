@@ -1,5 +1,5 @@
 lenguaje = input("Lenguaje del AFN: ")
-estados = input("Estados del AFN: ")
+estados = input("Estados del AFN (separado por coma): ").split(",")
 estadoInicial = estados[0]
 estadosFinal = estados[-1]
 
